@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmi02h3hoxvwc"]
+
+[ext_resource type="Texture2D" uid="uid://xy4dthl8mdpa" path="res://assets/icons/pexels-simon73-1323550.jpg" id="1_l6cm7"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ekxnf"]
+texture = ExtResource("1_l6cm7")
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_ekxnf")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(577, 323)
