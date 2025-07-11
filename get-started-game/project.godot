@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="get-started-game"
+run/main_scene="uid://b75otqesg4vtm"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://assets/icon.svg"
+
+[display]
+
+window/size/transparent=true
 
 [rendering]
 
